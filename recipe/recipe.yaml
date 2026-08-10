@@ -24,8 +24,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    # Not listed but needed for import
-    - fastcore >=1.12.27
+    # Needs to be >2.0 though not spelled out upstream
+    - fastcore >=2
 
 tests:
   - python:
