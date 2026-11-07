@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fastgit
-  version: "0.1.4"
+  version: "0.1.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/fastgit-${{ version }}.tar.gz
-  sha256: a54c00f31157501007d57181bf0df12740c2bb6dda2d5527fce8dd234157a2e4
+  sha256: 8728e6dfb70de57a8f58758d4e66192f3450a3177a7a56ee0c532fcd24d13d9e
 
 build:
   number: 0
